@@ -1,0 +1,99 @@
+.title {
+    color: rgb(4, 119, 191);
+    margin-left: 10px;
+  }
+  .img {
+    height: 50px;
+  }
+  .el-header {
+    background-color: rgb(214, 233, 253);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    
+  }
+  .el-header> div {
+    display: flex;
+    align-items: center;
+    
+  }
+  .el-header>div> span {
+    margin-left: 5px;
+  }
+.register_btn {
+    margin-right: 20px;
+  }
+  .login_container {
+    background: url('../image/logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+  }
+  .login_box {
+    width: 450px;
+    height: 400px;
+    background-color: rgb(214, 233, 253);
+    border: 0px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  }
+  .avatar_box {
+    height: 130px;
+    width: 130px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px #ddd;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+  .avatar_box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #eee;
+  }
+  .btns {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    float: bottom;
+    height: 50px;
+    width: 100%;
+    float: bottom;
+  }
+  .btn {
+    position: flex;
+    bottom: 0;
+    height: 40px;
+  }
+  .forget_btn {
+    bottom: 0;
+    float: left;
+    margin-right: 180px;
+  }
+  .login_form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .tip {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+  }
+  .login_input {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 70%;
+  }

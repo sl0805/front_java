@@ -1,0 +1,103 @@
+/*控制notify换行，未解决*/
+.el-notification {
+    white-space: pre !important;
+  }
+  .el-header {
+    background-color: rgb(2, 119, 189);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    
+  }
+  .el-header> div {
+    display: flex;
+    align-items: center;
+    
+  }
+  .el-header>div> span {
+    margin-left: 5px;
+  }
+  .el-aside {
+    background-color: rgb(104, 181, 235);
+  }
+  .el-main {
+    background-color: rgb(214, 233, 253);
+  }
+  .avatar_box {
+    height: 130px;
+    width: 130px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(214, 233, 253);
+    position: absolute;
+    left: 1.5%;
+    top: 15%;
+    background-color: white;
+    margin-top: 10px;
+  }
+  .userInfo {
+    margin-top: 150px;
+  }
+  .avatar_box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(214, 233, 253);
+  }
+  .home-container {
+    height: 100%;
+  }
+  .img {
+    height: 50px;
+  }
+  .newFolderForm {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    height: 50px;
+    float: right;
+    padding-top: 10px;
+  }
+  .uploadButton {
+    margin-left: 50px;
+  }
+  .fileName {
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .del {
+    float: right;
+  }
+  .fileList {
+    margin-top: 10px;
+  }
+  .btns {
+    float: right;
+    vertical-align: middle;
+    padding-bottom: 10px;
+  }
+  .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .upload {
+    margin-left: 40px;
+    display: inline-block;
+  }
+  .info {
+    font-size: large;
+    border: 0px;
+  }
+  .infoTip {
+    font-size: small;
+  }
+  .infoDiv {
+    margin-bottom: 10px;
+  }
+  .copy {
+    margin-top: 20px;
+    float: right;
+  }

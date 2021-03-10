@@ -1,0 +1,33 @@
+.home-container {
+    height: 100%;
+  }
+  .img {
+    height: 50px;
+  }
+  .el-header {
+    background-color: rgb(2, 119, 189);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    
+  }
+  .el-header> div {
+    display: flex;
+    align-items: center;
+    
+  }
+  .el-header>div> span {
+    margin-left: 5px;
+  }
+  .el-aside {
+    background-color: rgb(104, 181, 235);
+  }
+  .el-main {
+    background-color: rgb(214, 233, 253);
+  }
+  .el-table {
+    font-size: 12px;
+  }
